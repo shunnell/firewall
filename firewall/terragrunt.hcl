@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "${get_path_to_repo_root()}/../modules//network/network_firewall"
+  source = "${get_path_to_repo_root()}/modules//network/network_firewall"
 }
 
 locals {

@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "${get_path_to_repo_root()}/../modules//monitoring/cloudwatch_log_group"
+  source = "${get_path_to_repo_root()}/modules//monitoring/cloudwatch_log_group"
 }
 
 locals {

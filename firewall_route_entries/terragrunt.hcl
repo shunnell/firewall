@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "${get_path_to_repo_root()}/../modules//network/vpc_route_table_entry"
+  source = "${get_path_to_repo_root()}/modules//network/vpc_route_table_entry"
 }
 
 dependency "network_firewall" {
