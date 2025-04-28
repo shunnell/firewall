@@ -1,0 +1,9 @@
+allowed_domains:
+  - api.collections.pay.gov
+  - stg.api.collections.pay.gov
+  - qa.pay.gov
+  - api.usps.com
+  - caservices-npe-dev-shared.state.gov
+  - caservices-npe-c1-test-pi.state.gov
+  - caservices-npe-c1-ivv.state.gov
+  - caservices-npe-c1-test-perf.state.gov
